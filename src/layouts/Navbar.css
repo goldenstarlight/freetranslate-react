@@ -1,0 +1,14 @@
+.menu-item,
+.logo,
+.logo:hover {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.menu-item-collapse {
+  color: #000;
+}
+
+.logo:hover {
+  text-shadow: 2px 2px gray;
+}

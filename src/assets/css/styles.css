@@ -1,0 +1,14 @@
+.w-100 {
+  height: 420px;
+}
+
+.translate-grid {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  margin-top: 68px;
+}
