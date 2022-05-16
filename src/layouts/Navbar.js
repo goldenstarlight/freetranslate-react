@@ -65,10 +65,10 @@ const Navbar = () => {
     setActive(menuItem);
   }
 
-  const activeStyle = { color: '#ff3333' };
+  const activeStyle = { color: '#14a800' };
   
   return (
-    <AppBar position="fixed">
+    <AppBar position="static" sx={{backgroundColor: '#ffff'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -138,7 +138,7 @@ const Navbar = () => {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: '#14a800',
               textDecoration: 'none',
             }}
           >
@@ -151,17 +151,19 @@ const Navbar = () => {
                 onClick={() => handleCloseNavMenu(page)}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                <Link 
-                  className="menu-item" 
-                  to={ page.link }
-                  style={ active === page.name ? activeStyle : {}} 
-                  onClick={() =>_handleClick(page.name)}
-                  >{page.name}</Link>
+                <b>
+                  <Link 
+                    className="menu-item" 
+                    to={ page.link }
+                    style={ active === page.name ? activeStyle : {}} 
+                    onClick={() =>_handleClick(page.name)}
+                    >{page.name}</Link>
+                </b>
               </Button>
             ))}
           </Box>
           <IconButton size="large" aria-label="show 4 new mails" color="inherit">
-            <SearchIcon sx={{ display: { xs: 'none', md: 'flex' } }}/>
+            <SearchIcon sx={{ display: { xs: 'none', md: 'flex' }, color:'#14a800' }}/>
           </IconButton>
         </Toolbar>
       </Container>

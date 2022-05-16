@@ -2,13 +2,50 @@
   height: 420px;
 }
 
-.translate-grid {
+.translate-grid,
+.footer-block,
+.footer-touch {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
+.translate-grid h1 {
+  color: #14a800;
+}
+
 .content {
   margin-top: 68px;
+}
+
+.card {
+  padding-top: 45px;
+}
+
+.css-1t6e9jv-MuiCardActions-root {
+  justify-content: center;
+}
+
+.instruction-card {
+  min-height: 279px;
+}
+
+.home-media:hover {
+  border: 2px solid #14a800;
+  cursor: pointer;
+}
+
+.footer-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MuiButtonGroup-root {
+  height: 35px;
+  margin-top: 30px;
+}
+.MuiButtonGroup-root input{
+  height: 1px;
+  background-color: white;
 }

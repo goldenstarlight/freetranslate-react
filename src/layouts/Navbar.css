@@ -1,7 +1,13 @@
-.menu-item,
+.menu-item
+{
+  color: #5e6d55;
+  text-decoration: none;
+}
+
 .logo,
-.logo:hover {
-  color: #ffff;
+.logo:hover
+.menu-item:hover {
+  color: #14a800 !important;
   text-decoration: none;
 }
 
@@ -11,4 +17,8 @@
 
 .logo:hover {
   text-shadow: 2px 2px gray;
+}
+
+.MuiButtonBase-root {
+  background-color: #14a800;
 }

@@ -69,11 +69,22 @@ class MyVerticallyCenteredModal extends React.Component {
                 marginTop: 4
               }}
               name="phone"
+              fullWidth
               label="Phone Number"
               data-cy="user-phone"
               defaultCountry={"us"}
               value={this.state.phone}
               onChange={this.handlePhoneChange}
+            />
+            <TextField
+              id="outlined-multiline-flexible"
+              label="Message"
+              multiline
+              fullWidth
+              sx={{
+                marginTop: 4
+              }}
+              maxRows={4}
             />
           </Box>
         </Modal.Body>
@@ -90,7 +101,7 @@ function HomeModal() {
 
   return (
     <>
-      <Button variant="contained" endIcon={<SendIcon />} onClick={() => setModalShow(true)}>
+      <Button variant="contained" endIcon={<SendIcon />} onClick={() => setModalShow(true)} sx={{backgroundColor: '#14a800'}}>
         Make Enquiry
       </Button>
 
