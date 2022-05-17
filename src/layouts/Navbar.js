@@ -20,7 +20,7 @@ const pages = [
   link: 'home'
   },
   {
-    name: 'HOMUPDATESE',
+    name: 'UPDATES',
     link: 'updates'
   },
   {
