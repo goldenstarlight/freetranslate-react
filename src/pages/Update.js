@@ -114,8 +114,6 @@ class Update extends React.Component {
           </div>
         </Box>
       </div>
-      
-
     )
   }
 }

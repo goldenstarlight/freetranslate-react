@@ -13,6 +13,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import SearchIcon from '@mui/icons-material/Search';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import Logo from '../assets/images/logo.png';
 
 const pages = [
   {
@@ -75,7 +76,7 @@ const Navbar = () => {
           <Typography
             variant="h6"
             noWrap
-            component="a"
+            component="p"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -86,7 +87,7 @@ const Navbar = () => {
               textDecoration: 'none',
             }}
           >
-            <Link to="/" className='logo'>FREETRANSLATE</Link>
+            <img src={ Logo } className="logo-img"/>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -142,7 +143,7 @@ const Navbar = () => {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            <img src={ Logo } className="logo-img"/>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page, index) => (

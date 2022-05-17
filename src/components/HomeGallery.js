@@ -1,9 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
-import galleryImg1 from "../assets/images/gallery/1.webp";
-import galleryImg2 from "../assets/images/gallery/3.webp";
-import galleryImg3 from "../assets/images/gallery/4.webp";
+import galleryImg1 from "../assets/images/gallery/1.jpg";
+import galleryImg2 from "../assets/images/gallery/5.jpg";
+import galleryImg3 from "../assets/images/gallery/4.jpg";
 
 class HomeGallery extends React.Component {
   constructor(props) {
@@ -20,8 +20,11 @@ class HomeGallery extends React.Component {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h1 style={{fontWeight: 'bolder', color: '#14a800'}}><b>FREELANCER</b></h1>
+            <h3>
+              <font style={{color: '#14a800'}}>Millions of people use </font>
+              <font style={{color: 'purple'}}>freelancer.com</font> 
+              <font style={{color: '#14a800'}}>to turn their ideas into reality.</font></h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
@@ -31,8 +34,7 @@ class HomeGallery extends React.Component {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h1 style={{fontWeight: 'bolder'}}><b>CONTENT WRITING</b></h1>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -42,8 +44,8 @@ class HomeGallery extends React.Component {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h1 style={{ color: '#14a800', fontWeight: 'bolder' }}>UPWORK</h1>
+            <h3>Upwork enables us to differentiate ourselves from our competitos and produce content at a high caliber</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

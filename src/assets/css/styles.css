@@ -1,5 +1,9 @@
 .w-100 {
-  height: 420px;
+  height: 510px;
+}
+
+.carousel-caption {
+  top: 210px;
 }
 
 .translate-grid,
@@ -77,4 +81,8 @@
 .update-continue-btn {
   display: flex;
   justify-content: end;
+}
+
+.logo-img {
+  max-width: 210px;
 }
