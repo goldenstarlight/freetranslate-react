@@ -101,7 +101,7 @@ function HomeModal() {
 
   return (
     <>
-      <Button variant="contained" endIcon={<SendIcon />} onClick={() => setModalShow(true)} sx={{backgroundColor: '#14a800'}}>
+      <Button variant="contained" endIcon={<SendIcon sx={{color: '#fff'}}/>} onClick={() => setModalShow(true)} sx={{backgroundColor: '#14a800'}}>
         Make Enquiry
       </Button>
 

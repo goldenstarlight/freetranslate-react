@@ -8,6 +8,7 @@ import Media from './pages/Media';
 import About from './pages/About';
 import Skill from './pages/Skill';
 import Contact from './pages/Contact';
+import FixedIcons from './components/FixedIcons';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/home" element={<Home/>} />
       </Routes>
       <Footer/>
+      <FixedIcons />
     </Router>
   );
 }

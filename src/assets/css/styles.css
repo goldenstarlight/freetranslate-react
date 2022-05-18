@@ -19,10 +19,6 @@
   color: #14a800;
 }
 
-.content {
-  margin-top: 68px;
-}
-
 .card {
   padding-top: 45px;
 }
@@ -83,6 +79,36 @@
   justify-content: end;
 }
 
+.media-btn-filter {
+  background-color: #14a800;
+}
+
 .logo-img {
   max-width: 210px;
+}
+
+.about-accordian-title {
+  background-color: #e8efe8 !important;
+}
+
+.about-social-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.about-social-icons svg {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.fixed-icons {
+  position: fixed;
+  bottom: 70px;
+  left: 20px;
+}
+
+.fixed-icons img {
+  margin-left: 10px;
+  cursor: pointer;
 }
