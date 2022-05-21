@@ -22,7 +22,7 @@ class Skill extends React.Component {
           maxWidth: '93%',
           flexGrow: 1,
           backgroundColor: (theme) =>
-            theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+            theme.palette.mode === 'dark' ? '#1A2027' : '#f2f7f2',
         }}
       >
         <h1 className="text-center">FREELANCER SKILLS NEEDED</h1>
@@ -30,14 +30,14 @@ class Skill extends React.Component {
         <div className="d-flex justify-content-center">
           <img src={ UpworkImg } />
         </div>
-        <div>
-          <h5 className="text-center">
+        <div className="mt-3">
+          <h5 className="text-center" style={{color: '#14a800'}}>
             TRANSLATION SKILLS
           </h5>
           <p className="text-center">
             *PORTUGUESE* *ENGLISH* *PORTUGUESE TO ENGLISH TRANSLATION* ENGLISH TO PORTUGUESE TRANSLATION* *BRAZILIAN DIALECT* *TRANSCRIPTION*
           </p>
-          <h5 className="text-center">
+          <h5 className="text-center" style={{color: '#14a800'}}>
             WRITING SKILLS
           </h5>
           <p className="text-center">*CONTENT WRITING* *ARTICLE WRITING* *CONTRACT WRITING* *BLOGGING*</p>
